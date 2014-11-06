@@ -1,0 +1,485 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,body,h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #e9eaed;
+}
+
+h2{
+	margin-bottom:10px;
+}
+
+header {
+    	background-color: #F00;
+	padding: 0px;
+	width: 100%;
+	height: 90px;
+	margin: 0px;
+}
+
+#headerwrapper2 {
+	width: 1000px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+#headerwrapper {
+	background-color: #F00;
+	padding: 0px;
+	width: 100%;
+	height: 90px;
+	background-position: 0px 0px;
+	top: 0px;
+	position: fixed;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	display: block;
+}
+
+#head {
+	width: 1000px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+#header h1 {
+	margin: 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 0px;
+	padding-left: 0;
+}
+
+#headerleft {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 600px;
+}
+#headerright {
+	background-color: blue;
+	padding: 0px;
+	width: 400px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 600px;
+}
+
+.hdprofpic {
+	float: left;
+}
+
+#wrapper {
+	width: 1000px;
+	background: #FFFFFF; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.8) 0 4px 14px 0;
+	-moz-box-shadow:rgba(0, 0, 0, 0.8) 0 4px 14px 0;
+	box-shadow:rgba(0, 0, 0, 0.8) 0 4px 14px 0;
+	padding: 0px;
+}
+
+nav {
+	width: 100%;
+	height: 40px;
+	background-color: #000;
+	margin: 0;
+	border-bottom: #531 solid 2px;
+	padding-top: 5;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+nav ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+	display: block;
+	float: left;
+	height: 35px;
+	width: 150px;
+	margin: 0;
+	font-family: tahoma, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	background-color: #000;
+	text-decoration: none;
+	color: #FFF;
+	border-bottom: #531 solid 2px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+nav ul li a:hover {
+	border-bottom: #da1 solid 2px;
+	background-color: #FFF;
+	color: #000;
+}
+
+main{
+	margin: 0px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-color: #FFF;
+	
+	
+}
+
+#welcome {
+	padding: 5px;
+	width: 900px;
+	border: 1px solid #09F;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+	margin-left: 5px;
+}
+#loginbox {
+	background-color: #999;
+	width: 600px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	padding: 10px;
+}
+#loginform {
+	margin: 5px;
+}
+#profileheader {
+	background-color: #FFF;
+	padding: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	height: 250px;
+	width: 900px;
+	border: 1px solid #CCC;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+#profileimage {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 200px;
+}
+#profileinfo {
+	padding: 5px;
+	width: 600px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 200px;
+}
+
+#profilenav {
+	margin: 5px;
+	padding: 5px;
+	height: 150px;
+	width: 800px;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+}
+
+#profilenavbox {
+	margin: 5px;
+	padding: 1px;
+	float: left;
+	height: 90px;
+	width: 110px;
+	border: 1px solid #09F;
+}
+.profilenavbox {
+	margin: 5px;
+	padding: 1px;
+	float: left;
+	height: 90px;
+	width: 110px;
+	border: 1px solid #09F;
+}
+#friendsdisplay {
+	background-color: #CCC;
+	margin: 0px;
+	padding: 0px;
+	width: 800px;
+	border: 1px solid #CCC;
+}
+.friendbox {
+	background-color: #FFF;
+	margin: 5px;
+	padding: 5px;
+	height: 100px;
+	width: 700px;
+}
+
+
+#userinputform {
+	margin: 10px;
+	padding: 5px;
+}
+footer {
+	padding: 10; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#DDDDDD;
+}
+footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+	font-size: 85%;
+	text-align: center;
+}
+footer ul {
+	text-align: center;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+footer li {
+	display: inline;
+}
+
+footer a:link, #footer a:visited {
+	color: #005689;
+	margin-right: 5px;
+	margin-left: 5px;
+	font-size: 100%;
+	text-decoration: none;
+}
+footer a:hover, #footer a:focus, #footer a:active {
+	background-color: #0061A6;
+	color: #FFF;
+	text-decoration: none;
+}
+
+a img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+}
+.frame {
+	float: left;
+	width: 195px;
+	margin-top: 40px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 6px;
+	border: 1px solid #00F;
+	height: 250px;
+}
+.frame p {
+	text-align: center;
+	margin: 5px;
+}
+
+
+
+.clearfloat {
+	font-size: 1px;
+	line-height: 0px;
+	clear: both;
+	height: 0px;
+}
+.contentdiv {
+	border: 1px solid #09F;
+	margin: 5px;
+	padding: 0px;
+}
+#usersdisplay {
+	margin: 5px;
+	padding: 5px;
+}
+
+.commentbox {
+	background-color: #f6f7f8;
+	margin: 0px;
+	padding: 2px;
+	width: 800px;
+}
+
+.commentuser {
+	float: left;
+	width: 100px;
+	padding: 5px;
+}
+
+.commentuser p{
+    color: #00F;
+    text-align: right;
+    margin: 0px;
+}
+
+.commenttext {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	padding: 5px;
+}
+.commenttext p{
+    margin: 0px;
+}
+
+.commenttextarea {
+	margin: 1px;
+	padding: 1px;
+	width: 600px;
+	border: 1px solid #d3d6db;
+}
+
+
+.insertcommentdiv {
+	padding: 5px;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	border: 1px solid #999;
+	background-color: #8FA6D5;
+}
+.phototnbox {
+	margin: 5px;
+	padding: 0px;
+	float: left;
+	height: 200px;
+	width: 200px;
+}
+
+img.error {
+  float: right;
+  padding-left: 20px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.error_message {
+  font-style: italic;
+}
+
+table, tr, td, tr { 
+	border-collapse: collapse; 
+	vertical-align: top; 
+	text-align: left;
+  	font: 13px/15px Verdana,Arial,Helvetica,sans-serif; 
+	padding: 5px;
+}
+
+table.bordered tr th, table.bordered tr td { border: 1px solid #000000; }
+
+#pagination .selected { font-weight: bold; color: #8D0D19;}
+
+#photoblock{
+	background-color:#CCC;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+#photo{
+	float:left;
+	width: 600px;
+	margin: 10px;
+	padding: 5px;
+}
+
+#photoinfo{
+	margin-left: 620px;
+	background-color:#FFF;
+	border:#09F solid 1px;
+}
+
+#caption{
+	background-color:#FFF;
+	border:#09F solid 1px;
+	padding-top: 1px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+#caption p{
+	margin: 0px;
+	padding: 0px;
+	font-weight:bold;
+	font-size: 1.4em;
+}
+
+.message{
+	background-color:#CCC;
+	border:#F00 solid 1px;
+	margin:5px;
+	padding:5px;
+	font-weight:bold;
+}
+
+#pageheader{
+	background-color:#09F;
+	padding:5px;
+	margin:10px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.8) 0 4px 14px 0;
+	-moz-box-shadow:rgba(0, 0, 0, 0.8) 0 4px 14px 0;
+	box-shadow:rgba(0, 0, 0, 0.8) 0 4px 14px 0;
+}
+
+.photo {
+	max-width: 100%;
+}
+
+#comments{
+	padding:5px;
+	margin:5px;
+	border:#09F solid 1px;
+}
